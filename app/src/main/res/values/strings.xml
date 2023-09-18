@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">setting</string>
+    <string name="msg_token_fmt">FCM Registration Token: %s</string>
 </resources>

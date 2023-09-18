@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948166695324",
+    "project_id": "settingproject-b46e9",
+    "storage_bucket": "settingproject-b46e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948166695324:android:cd5b10e58a0ecf62a95059",
+        "android_client_info": {
+          "package_name": "com.effort.setting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqmPAVIrmSfT4-DFMAPgzaw8eGbUb8IYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

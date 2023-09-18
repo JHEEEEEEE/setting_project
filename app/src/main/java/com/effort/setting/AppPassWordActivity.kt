@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import android.text.method.PasswordTransformationMethod
 
 class AppPassWordActivity : AppCompatActivity(){
     private var oldPwd =""
@@ -39,6 +40,11 @@ class AppPassWordActivity : AppCompatActivity(){
         etPasscode3 = findViewById(R.id.etPasscode3)
         etPasscode4 = findViewById(R.id.etPasscode4)
         etInputInfo = findViewById(R.id.etInputInfo)
+
+        etPasscode1.transformationMethod = PasswordTransformationMethod.getInstance()
+        etPasscode2.transformationMethod = PasswordTransformationMethod.getInstance()
+        etPasscode3.transformationMethod = PasswordTransformationMethod.getInstance()
+        etPasscode4.transformationMethod = PasswordTransformationMethod.getInstance()
 
         val buttonArray = arrayListOf<Button>(btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7 ,btn8, btn9, btnClear, btnErase)
         for (button in buttonArray){
